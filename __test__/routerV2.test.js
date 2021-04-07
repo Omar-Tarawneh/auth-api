@@ -38,7 +38,7 @@ describe('testing api/v2/:model/:id model', () => {
   it('create a user admin and get teh token', async () => {
     const response = await request
       .post('/signup')
-      .send({ username: 'admin', password: 'password', role: 'admin' });
+      .send({ username: 'omar', password: 'password', role: 'admin' });
     const userObject = response.body;
     token = userObject.token;
     expect(response.status).toBe(201);
