@@ -9,6 +9,6 @@ const todo = mongoose.Schema({
   difficulty: { type: Number, default: 1 },
 });
 
-const todoModel = mongoose.model('todo', foodSchema);
+const todoModel = mongoose.model('todo', todo);
 
 module.exports = todoModel;
