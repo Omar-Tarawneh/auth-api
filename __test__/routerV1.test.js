@@ -1,4 +1,5 @@
 'use strict';
+process.env.SECRET = 'secret';
 
 const server = require('../src/server').app;
 const supergoose = require('@code-fellows/supergoose');

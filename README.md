@@ -23,6 +23,7 @@
 `.env`
 
 - `PORT`: PORT NUMBER
+- `SECRET`: `secret`
 
 - `MONGODB_URI`: `mongodb+srv://omar:0000@cluster0.vibfe.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`
 

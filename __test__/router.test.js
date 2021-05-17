@@ -1,5 +1,6 @@
 'use strict';
 
+process.env.SECRET = 'secret';
 const server = require('../src/server').app;
 const supergoose = require('@code-fellows/supergoose');
 const bearer = require('../src/auth/middleware/bearer.js');
